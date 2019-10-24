@@ -11,7 +11,8 @@ def fourth_challenge
           attitude: "worried"
         },
         :Mercutio => {
-          name: "18",
+          name: "Mercutio",
+          age:"18",
           attitude: "hot-headed"
         }
       ]
@@ -21,7 +22,16 @@ def fourth_challenge
       :matriarch => {name: "Lady Capulet", age: "51"},
       :heroine => {name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => [
-        #your hashes here!
+        :Benvolio => {
+          name: "Steven",
+          age: "30",
+          attitude: "confused"
+        },
+        :Mercutio => {
+          name: "Nurse",
+          age: "44",
+          attitude: "worried"
+        }
       ]
    }
 }
